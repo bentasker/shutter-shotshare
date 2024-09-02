@@ -40,7 +40,7 @@ $d->dir($ENV{'SHUTTER_INTL'});
 
 my %upload_plugin_info = (
 	'module'                     => "Shotshare",
-	'url'                        => "",
+	'url'                        => "https://github.com/bentasker/shutter-shotshare/",
 	'registration'               => "",
 	'description'                => $d->get("Copy images into a ShotShare installation. Set user to shotshare domain and password to API key"),
 	'supports_anonymous_upload'  => FALSE,
