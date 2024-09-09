@@ -113,6 +113,7 @@ sub upload {
             'Authorization' => 'Bearer ' . $self->{_key},
             "Accept" => "application/json",
             Content_Type => 'form-data',
+            'User-Agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0',
             Content => [
                 'images[0]' => [$upload_filename]
             ]
